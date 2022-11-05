@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	background-color: #fff0ed;
+	color: #393939;
+}
+
+.nav {
+	margin: 0;
+}
+
+.nav__link-container {
+	margin: 0;
+	padding-bottom: 20px;
+}
+.nav__link {
+	box-sizing: border-box;
+	text-transform: uppercase;
+	list-style-type: none;
+	font-size: 30px;
+	display: inline-block;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.nav__link--highlight {
+	color: #5baac3;
+}
+
+.nav__link--logo {
+	font-size: 60px;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+.nav__image {
+	vertical-align: middle;
+	min-width: 0px;
+	max-width: 120px;
+}
+
+.footer {
+	margin: 0;
+}
+
+.footer-container {
+	margin: 0 auto;
+	width: fit-content;
+	padding-bottom: 40px;
+}
+
+.footer-container__child {
+	width: fit-content;
+	display: inline-block;
+	margin-right: 10em;
+}
+
+.button {
+	min-width: 180px;
+	max-width: 80%;
+	background-color: #5bacc3;
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	font-size: 21px;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 300;
+	margin: 0;
+}
+
+h3 {
+	font-size: 33px;
+	font-weight: 300;
+}
+
+p {
+	margin: 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.social-icons {
+	width: 50px;
+	vertical-align: bottom;
+}
