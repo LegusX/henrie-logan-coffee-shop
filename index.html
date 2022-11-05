@@ -11,17 +11,19 @@
 		<title>Nitro Coffee</title>
 	</head>
 	<body>
-		<header class="nav">
-			<ul class="nav__link-container">
-				<li class="nav__link nav__link--logo">
-					<a href="/"><img src="/assets/coffee-beans-logo-and-footer.svg" class="nav__image" />Nitro</a>
-				</li>
-				<li class="nav__link"><a href="/">About</a></li>
-				<li class="nav__link"><a href="/pages/menu.html">Menu</a></li>
-				<li class="nav__link nav__link--highlight"><a href="/pages/menu.html">Shop Now</a></li>
-			</ul>
+		<header>
+			<nav class="nav">
+				<ul class="nav__link-container">
+					<li class="nav__link nav__link--logo">
+						<a href="/"><img src="/assets/coffee-beans-logo-and-footer.svg" class="nav__image" />Nitro</a>
+					</li>
+					<li class="nav__link"><a href="/">About</a></li>
+					<li class="nav__link"><a href="/pages/menu.html">Menu</a></li>
+					<li class="nav__link nav__link--highlight"><a href="/pages/menu.html">Shop Now</a></li>
+				</ul>
+			</nav>
 		</header>
-		<div class="hero">
+		<section class="hero">
 			<div class="hero-container">
 				<div class="hero-container__text">
 					<h1>Nitro Coffee</h1>
@@ -30,31 +32,58 @@
 				</div>
 				<img src="/assets/coffeebeans-hero.png" class="hero-container__img" />
 			</div>
-		</div>
-		<div class="products">
+		</section>
+		<section class="products">
 			<h1>Our Products</h1>
 			<div class="product-container">
 				<div class="product-container__card">
-					<img src="/assets/coffeebeans.png" />
-					<h3>Coffee Beans</h3>
-					<h3 class="product-container__price">$18.99</h3>
+					<div class="product-container__img"><img src="/assets/coffeebeans.png" /></div>
+					<section class="product-info">
+						<div class="product-info__child text-left">
+							<h3>Coffee Beans</h3>
+							<p class="product-info__subtitle">Pack of 3</p>
+						</div>
+						<div class="product-info__child text-right">
+							<h3 class="product-info__price">$19</h3>
+						</div>
+					</section>
 				</div>
 				<div class="product-container__card">
-					<img src="/assets/coldbrew.png" />
-					<h3>Cold Brew</h3>
-					<h3 class="product-container__price">$4.99</h3>
+					<div class="product-container__img">
+						<img src="/assets/coldbrew.png" />
+					</div>
+					<section class="product-info">
+						<div class="product-info__child text-left">
+							<h3>Cold Brew</h3>
+							<p class="product-info__subtitle">1 can</p>
+						</div>
+						<div class="product-info__child text-right">
+							<h3 class="product-info__price">$5</h3>
+						</div>
+					</section>
 				</div>
 				<div class="product-container__card">
-					<img src="/assets/inhousebrew.png" />
-					<h3>In-house Brew</h3>
-					<h3 class="product-container__price">$2.99</h3>
+					<div class="product-container__img">
+						<img src="/assets/inhousebrew.png" />
+					</div>
+					<!-- <section class="product-info__container"> -->
+					<div class="product-info">
+						<div class="product-info__child text-left">
+							<h3>In-house Brew</h3>
+							<p class="product-info__subtitle">1 cup</p>
+						</div>
+						<div class="product-info__child text-right">
+							<h3 class="product-info__price">$3</h3>
+						</div>
+					</div>
+					<!-- </section> -->
 				</div>
 			</div>
 			<a class="button" href="/pages/menu.html">View All</a>
-		</div>
-		<div class="discount">
+		</section>
+		<section class="discount">
 			<div class="discount__text">Get 20% off your first order with code: <span class="bold">FirstNitro</span></div>
-		</div>
+		</section>
 		<footer class="footer">
 			<div class="footer-container">
 				<div class="footer-container__child">
