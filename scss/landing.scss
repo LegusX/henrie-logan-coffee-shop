@@ -1,6 +1,8 @@
+@use "./partials/global" as *;
+
 .products {
 	text-align: center;
-	background-color: #f7f7f7;
+	background-color: $light;
 	padding: 40px;
 }
 
@@ -57,23 +59,23 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #fff0ed;
+	background-color: $pink;
 	padding: 40px 20px;
 	/* height: 50%; */
 }
 
 .product-info__container {
-	background-color: #fff0ed;
+	background-color: $pink;
 	height: 100%;
 	width: 100%;
 }
 
 .product-info__subtitle {
-	color: #909090;
+	color: $graphite;
 }
 
 .product-info__price {
-	color: #5bacc3;
+	color: $blue;
 	margin-left: 30px;
 	font-weight: 700;
 }
@@ -92,7 +94,7 @@
 }
 
 .discount__text {
-	background-color: #393939;
+	background-color: $graphite;
 	font-weight: 400;
 	font-size: 45px;
 	color: white;
@@ -117,7 +119,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	outline: #5bacc3 solid 5px;
+	outline: $blue solid 5px;
 	z-index: 0;
 	position: relative;
 }

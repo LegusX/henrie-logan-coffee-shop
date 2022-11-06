@@ -1,8 +1,14 @@
+$graphite: #393939;
+$blue: #5bacc3;
+$gray: #909090;
+$pink: #fff0ed;
+$light: #f7f7f7;
+
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	background-color: #fff0ed;
-	color: #393939;
+	background-color: $pink;
+	color: $graphite;
 }
 
 .nav {
@@ -27,7 +33,7 @@ body {
 }
 
 .nav__link--highlight {
-	color: #5baac3;
+	color: $blue;
 }
 
 .nav__link--logo {
@@ -74,7 +80,7 @@ body {
 	text-transform: uppercase;
 	padding: 20px 40px;
 	font-size: 21px;
-	outline: #393939 solid 2px;
+	outline: $graphite solid 2px;
 	position: relative;
 	z-index: 10;
 }
@@ -84,7 +90,7 @@ body {
 	width: 101%;
 	height: 101%;
 	position: absolute;
-	background-color: #5baac3;
+	background-color: $blue;
 	top: 5px;
 	left: 5px;
 	z-index: -1;

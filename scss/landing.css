@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff0ed;
+  color: #393939;
+}
+
+.nav {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 0 20px;
+}
+
+.nav__links {
+  margin: 0;
+}
+
+.nav__link {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 21px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.nav__link--highlight {
+  color: #5bacc3;
+}
+
+.nav__link--logo {
+  font-size: 60px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.nav__image {
+  vertical-align: middle;
+  min-width: 0px;
+  max-width: 120px;
+}
+
+.footer {
+  margin: 0;
+}
+
+.footer-container {
+  margin: 0 auto;
+  /* width: fit-content; */
+  padding: 5% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__child {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+  /* margin-right: 10em; */
+}
+
+.footer__title {
+  margin-bottom: 20px;
+}
+
+.button {
+  cursor: pointer;
+  min-width: 180px;
+  max-width: 80%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  font-size: 21px;
+  outline: #393939 solid 2px;
+  position: relative;
+  z-index: 10;
+}
+
+.button::after {
+  content: "";
+  width: 101%;
+  height: 101%;
+  position: absolute;
+  background-color: #5bacc3;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1,
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.social-icons {
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.products {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+
+.hero {
+  padding: 0 100px;
+}
+
+.hero-container {
+  /* width: fit-content; */
+  margin: 60px auto;
+}
+
+.hero-container__text {
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 30vw;
+}
+
+.hero-container__img {
+  vertical-align: middle;
+  margin-left: 40%;
+  height: 450px;
+}
+
+.hero-container__description {
+  margin: 20px 0 40px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0;
+}
+
+.product-container__img {
+  margin: 20px 0 40px 0;
+  width: 100%;
+}
+
+.product-container__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 350px;
+  box-shadow: 0 5px 9px 1px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  overflow: hidden;
+}
+
+.product-info {
+  flex-grow: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff0ed;
+  padding: 40px 20px;
+  /* height: 50%; */
+}
+
+.product-info__container {
+  background-color: #fff0ed;
+  height: 100%;
+  width: 100%;
+}
+
+.product-info__subtitle {
+  color: #393939;
+}
+
+.product-info__price {
+  color: #5bacc3;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.discount {
+  background-color: white;
+  padding: 200px;
+}
+
+.discount__text {
+  background-color: #393939;
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 40px 60px;
+}
+
+.different__container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+.different__img {
+  min-width: 400px;
+  max-width: 500px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: #5bacc3 solid 5px;
+  z-index: 0;
+  position: relative;
+}
+
+.different__img::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("/assets/coldbrewbackground.png");
+  background-size: contain;
+  top: 20px;
+  left: 20px;
+  z-index: -1;
+}
+
+.different__child {
+  max-width: 35%;
+}
+
+.different__icon {
+  width: 50px;
+}
+
+.different__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.different__title {
+  margin-bottom: 40px;
+}
+
+.different__text {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=landing.css.map */
