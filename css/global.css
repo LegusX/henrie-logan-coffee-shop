@@ -48,14 +48,20 @@ body {
 
 .footer-container {
 	margin: 0 auto;
-	width: fit-content;
-	padding-bottom: 40px;
+	/* width: fit-content; */
+	padding: 5% 0;
+	display: flex;
+	justify-content: space-around;
 }
 
-.footer-container__child {
+.footer__child {
 	width: fit-content;
 	display: inline-block;
-	margin-right: 10em;
+	/* margin-right: 10em; */
+}
+
+.footer__title {
+	margin-bottom: 20px;
 }
 
 .button {
