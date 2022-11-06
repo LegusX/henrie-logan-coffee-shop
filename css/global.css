@@ -7,20 +7,23 @@ body {
 
 .nav {
 	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 10px 0 20px;
 }
 
-.nav__link-container {
+.nav__links {
 	margin: 0;
-	padding-bottom: 20px;
 }
 .nav__link {
 	box-sizing: border-box;
 	text-transform: uppercase;
 	list-style-type: none;
-	font-size: 30px;
+	font-size: 21px;
 	display: inline-block;
 	text-align: center;
-	padding: 0 20px;
+	margin: 0 20px;
 }
 
 .nav__link--highlight {
