@@ -3,6 +3,8 @@
 	background-position: center;
 	background-size: cover;
 	height: 600px;
+	display: flex;
+	align-items: center;
 }
 
 .title__box {
@@ -13,6 +15,9 @@
 	margin: 0 auto;
 	text-align: center;
 	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .navbar {
