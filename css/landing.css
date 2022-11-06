@@ -100,3 +100,45 @@
 	margin: 0 auto;
 	padding: 40px 60px;
 }
+
+.different__container {
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5%;
+	padding-bottom: 0;
+}
+
+.different__img {
+	background-image: url("/assets/coldbrewbackground.png");
+	background-size: contain;
+	min-width: 400px;
+	max-width: 500px;
+	aspect-ratio: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.different__child {
+	max-width: 35%;
+}
+
+.different__icon {
+	width: 50px;
+}
+
+.different__icons {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.different__title {
+	margin-bottom: 40px;
+}
+
+.different__text {
+	margin-bottom: 20px;
+}

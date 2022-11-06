@@ -71,7 +71,8 @@ a {
 	text-decoration: inherit;
 }
 
-h1 {
+h1,
+h2 {
 	font-size: 60px;
 	font-weight: 300;
 }
