@@ -80,6 +80,10 @@
 	font-weight: 700;
 }
 
+.product__view {
+	margin: 0 auto;
+}
+
 .text-left {
 	text-align: left;
 }
@@ -101,6 +105,21 @@
 	width: fit-content;
 	margin: 0 auto;
 	padding: 40px 60px;
+	animation: discount__flash;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes discount__flash {
+	0% {
+		background-color: $graphite;
+	}
+	50% {
+		background-color: $blue;
+	}
+	100% {
+		background-color: $graphite;
+	}
 }
 
 .different__container {
@@ -116,12 +135,30 @@
 	min-width: 400px;
 	max-width: 500px;
 	aspect-ratio: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	outline: $blue solid 5px;
 	z-index: 0;
 	position: relative;
+}
+
+.different__can {
+	background-image: url("/assets/tiltedcan.png");
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.different__can:hover {
+	animation-name: different__img--rotate;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes different__img--rotate {
+	to {
+		transform: rotate(360deg);
+	}
 }
 
 .different__img::after {
