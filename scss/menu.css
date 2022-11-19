@@ -155,7 +155,7 @@ p {
 }
 
 .title {
-  background-image: url("/assets/coffee-circle.jpg");
+  background-image: url("../assets/coffee-circle.jpg");
   background-position: center;
   background-size: cover;
   height: 600px;
